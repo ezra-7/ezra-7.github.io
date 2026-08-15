@@ -348,41 +348,122 @@
     </section>
 
 
-    <!-- Contact -->
-    <section id="contact" class="section contact-section">
+   <!-- Contact -->
+<section id="contact" class="section contact-section">
 
-        <div class="container">
+    <div class="container">
 
-            <p class="section-label">
-                CONTACT
-            </p>
+        <p class="section-label">
+            CONTACT
+        </p>
 
-            <h2 class="section-title">
-                Let's Connect
-            </h2>
+        <h2 class="section-title">
+            Let's Connect
+        </h2>
 
-            <p>
-                Interested in working together or discussing a project?
-                Feel free to reach out.
-            </p>
+        <p class="contact-description">
+            Have a question, project idea, or opportunity?
+            Send me a message and I'll get back to you.
+        </p>
 
-            <div class="contact-links">
 
-                <a href="https://github.com/ezra-7"
-                   target="_blank">
-                    GitHub
-                </a>
+        <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-form"
+        >
 
-               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ezraadmasu04@gmail.com"
-   target="_blank">
-    Email
-</a>
+            <!-- Web3Forms Access Key -->
+            <input
+                type="hidden"
+                name="access_key"
+                value="6175560d-b37c-4e36-abde-276ccba70923"
+            >
 
+            <!-- Subject -->
+            <input
+                type="hidden"
+                name="subject"
+                value="New Message From Ezra's Portfolio"
+            >
+
+            <!-- Redirect after successful submission -->
+            <input
+                type="hidden"
+                name="redirect"
+                value="https://ezra-7.github.io/?success=true"
+            >
+
+            <div class="form-group">
+                <label for="name">Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                >
             </div>
+
+
+            <div class="form-group">
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                >
+            </div>
+
+
+            <div class="form-group">
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+            </div>
+
+
+            <button
+                type="submit"
+                class="submit-btn"
+            >
+                Send Message
+            </button>
+
+        </form>
+
+
+        <div class="contact-links">
+
+            <a
+                href="https://github.com/ezra-7"
+                target="_blank"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=ezraadmasu04@gmail.com"
+                target="_blank"
+            >
+                Email
+            </a>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
     <!-- Footer -->
